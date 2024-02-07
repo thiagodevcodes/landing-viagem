@@ -1,0 +1,143 @@
+.container-text {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 400px;
+    flex-direction: column;
+}
+
+.container-text h1 {
+    font-size: 30pt;
+}
+
+.container-text p {
+    text-align: justify;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about {
+    gap: 30px;
+    padding: 50px;
+}
+
+.about img {
+    width: 400px;
+}
+
+.destination {
+    background-color: #F4BF42;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.title-container img {
+    width: 40px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.title-container h2 {
+    font-size: 22pt;
+}
+
+.package {
+    padding: 50px;
+}
+
+.contact {
+    background-color: #F4BF42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.contact > img {
+    width: 250px;
+}
+
+.input-group {
+    display: flex;
+    gap: 30px;
+}
+
+.input-div textarea {
+    resize: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 7px;
+    height: 150px;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-div input {
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid black;
+}
+
+
+.form {
+    width: 500px;
+    padding: 10px;
+}
+
+
+/*Slider*/
+
+.item-slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    width: 100%; 
+}
+
+.slick-slider {
+    margin: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: black;
+    font-size: 30px;
+}
+
+.slick-prev {
+    left: -38px;
+}

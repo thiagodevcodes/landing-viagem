@@ -1,0 +1,34 @@
+.nav {
+    margin-right: 30px;
+    display: flex;
+    height: 70px;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav li {
+    height: calc(100% - 10px);
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    border-top: 5px solid rgba(0, 0, 0, 0);
+    transition: 300ms ease-in-out;
+
+}
+
+.nav li:hover {
+    border-bottom: 5px solid black;
+}
+
+.nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+}

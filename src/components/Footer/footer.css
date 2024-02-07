@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    grid-area: footer;
+    background-color: #D9D9D9;
+    flex-wrap: wrap;
+    gap: 0 30px;
+    padding: 20px 0 20px 0;
+    
+}
+
+.footer-group {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+
+}
+
+
+.footer img {
+    width: 200px;
+}
+
+.footer-group li {
+    display: flex;
+
+}
+
+.footer > p {
+    border-top: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
