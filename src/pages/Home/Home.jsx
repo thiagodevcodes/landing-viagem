@@ -84,10 +84,12 @@ export default function Home() {
 
             <section className="contact" id="contato" >
                 <form action="" className="form">
+                    
                     <div className="title-container">
                         <img src="/icons/Contact.png" alt="" />
                         <h2>Contato</h2>
                     </div>
+                    
                     <div className="input-group">
                         <div className="input-div">
                             <label htmlFor="">Nome</label>

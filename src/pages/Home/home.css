@@ -29,6 +29,7 @@
 
 .about img {
     width: 400px;
+    margin-top: 50px;
 }
 
 .destination {
@@ -150,5 +151,19 @@
 
     .container-text {
         margin-top: 50px;
+    }
+
+    .input-group {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .input-div {
+        margin-bottom: 10px;
+        
+    }
+
+    .about img {
+        width: 400px;
     }
 }
