@@ -144,7 +144,7 @@
     left: -38px;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 943px) {
     .title-container {
         margin-top: 30px;
     }
@@ -161,6 +161,14 @@
     .input-div {
         margin-bottom: 10px;
         
+    }
+
+    .container-text h1 {
+        text-align: center;
+    }
+
+    .container-text {
+        align-items: center;
     }
 }
 
