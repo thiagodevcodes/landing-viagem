@@ -37,7 +37,7 @@ export default function Home() {
 
     return (
         <Layout>
-            <section className="about flex-center" id="about">
+            <section className="about flex-center" id="sobre">
                 <div className="container-text">
                     <h1>Mundi Viagens</h1>
                     <p>Aventure-se pelo mundo conosco! Na nossa agência de viagens, transformamos sonhos em realidade, criando experiências memoráveis em destinos exóticos, culturais e paradisíacos. Com uma equipe apaixonada por viagens e conhecimento global, estamos aqui para proporcionar momentos únicos e inesquecíveis em cada jornada.</p>
@@ -68,7 +68,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="package">
+            <section className="package" id="pacotes">
                 <div className="title-container">
                     <img src="/icons/icon-package.png" alt="" />
                     <h2>Nossos Pacotes</h2>
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="contact">
+            <section className="contact" id="contato" >
                 <form action="" className="form">
                     <div className="title-container">
                         <img src="/icons/Contact.png" alt="" />

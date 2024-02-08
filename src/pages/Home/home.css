@@ -24,6 +24,7 @@
 .about {
     gap: 30px;
     padding: 50px;
+    margin-bottom: 60px
 }
 
 .about img {
@@ -53,7 +54,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .title-container h2 {
@@ -140,4 +141,14 @@
 
 .slick-prev {
     left: -38px;
+}
+
+@media only screen and (max-width: 915px) {
+    .title-container {
+        margin-top: 30px;
+    }
+
+    .container-text {
+        margin-top: 50px;
+    }
 }
