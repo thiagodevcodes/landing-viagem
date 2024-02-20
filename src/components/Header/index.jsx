@@ -1,7 +1,7 @@
 import "./header.css"
-import Nav from "../Nav/nav"
-import MobileButton from "../MobileButton/mobileButton";
-import MobileMenu from "../MobileMenu/mobileMenu";
+import Nav from "../Nav"
+import MobileButton from "../MobileButton";
+import MobileMenu from "../MobileMenu";
 import { useState, useEffect } from "react";
 
 export default function Header() {

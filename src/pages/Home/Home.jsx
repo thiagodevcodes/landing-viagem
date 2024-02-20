@@ -1,7 +1,7 @@
 import Layout from "../Layout/layout";
 import "./home.css"
-import Card from "../../components/Card/card";
-import Plans from "../../components/Plans/plans";
+import Card from "../../components/Card";
+import Plans from "../../components/Plans";
 import Slider from "react-slick";
 
 import 'swiper/css';
@@ -14,7 +14,7 @@ export default function Home() {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         initialSlide: 0,
         responsive: [
           {
